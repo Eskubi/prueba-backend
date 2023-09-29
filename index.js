@@ -5,7 +5,7 @@ let puerto = process.env.PORT || 3000;
 
 const servidor = express();
 
-seervidor.use(cors());
+servidor.use(cors());
 
 servidor.get("/", (peticion,respuesta) => {
     let [r,g,b] = [0,0,0].map(() => Math.floor(Math.random() * 256));
