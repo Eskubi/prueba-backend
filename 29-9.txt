@@ -1,0 +1,9 @@
+ficheros deploymenet --> fivheros estan en un repositorio git
+
+Build -- fiheros fuente -- verdionde produccion 
+
+node x
+
+comando BUIKLD --> comando para que empiece a funcionar 
+
+
