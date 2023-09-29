@@ -11,8 +11,8 @@ servidor.get("/", (peticion,respuesta) => {
 
 servidor.use((peticon, respuesta) => {
     respuesta.status(404);
-    respuesta.send("no found :( ")
-})
+    respuesta.send("no found :( ");
+});
 
 
 servidor.listen(puerto);
